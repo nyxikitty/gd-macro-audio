@@ -2,6 +2,8 @@
 
 Converts Geometry Dash macro files (.re3) into audio with realistic mouse click sounds.
 
+**Example output:** [Bloodbath macro with click sounds](https://github.com/nyxikitty/gd-macro-audio/blob/main/dist/Generated/Bloodbath_2025-11-03T09-31-45.mp3)
+
 ## What it does
 
 Takes your GD macro replay files and generates an MP3 with click sounds synced to the inputs. Analyzes click patterns to determine whether to use hard or soft click sounds based on timing.

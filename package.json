@@ -1,0 +1,33 @@
+{
+  "name": "gd-macro-click-sounds",
+  "version": "0.2.0",
+  "description": "Advanced command-line tool to convert Geometry Dash macros to realistic click sound audio",
+  "main": "dist/cli.js",
+  "bin": {
+    "macro-to-audio": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "geometry-dash",
+    "macro",
+    "click-sounds",
+    "audio-generator",
+    "re3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
